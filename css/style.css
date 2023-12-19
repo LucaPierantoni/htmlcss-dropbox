@@ -110,6 +110,20 @@ header .header-dx .conatiner-btn{
     width: 30%;
     padding-bottom: 50px;
 }
+#jumbo .horizontal-center .containerImgJumbo{
+    width:70%;
+    float: right;
+}
+#jumbo .horizontal-center img{
+    max-width: 100%;
+}
+#jumbo .horizontal-center .container-btn div{
+    margin: 30px 0;
+}
 #jumbo .horizontal-center .container-btn .btn{
     margin-bottom: 100px ;
+}
+#jumbo .horizontal-center .frecciaGiu{
+    font-size: 50px;
+    margin-top: 50px;
 }
