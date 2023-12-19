@@ -6,6 +6,7 @@
 
 body {
     font-family:'Open Sans';
+    font-weight: 600;
 }
 
 .clearfix::after{
@@ -126,4 +127,95 @@ header .header-dx .conatiner-btn{
 #jumbo .horizontal-center .frecciaGiu{
     font-size: 50px;
     margin-top: 50px;
+}
+/* sezione pacchetti acquistabili */
+.horizontal-center-2{
+    width: 65%;
+    margin: auto;
+}
+.pacchetti{
+    padding-top: 200px;
+}
+.pacchetti .horizontal-center-2 h2{
+    font-size: 45px;
+    padding: 50px 0;
+}
+.pacchetti .horizontal-center-2 .fatturazioni input{
+    margin-right:10px;
+    margin-bottom: 50px;
+}
+.pacchetti .horizontal-center-2 .fatturazioni span{
+    padding-right: 20px;
+}
+/* pacchetti acquistabili */
+.pacchetto{
+    float: left;
+    width: calc(100% / 3 - 34px);
+    border: solid 1px grey;
+}
+.centrale{
+    margin: 0 50px;
+}
+.pacchetto .pacchetto-header{
+    border-bottom: solid 1px grey;
+    text-align: center;
+    padding: 10px 0;
+}
+.pacchetto .pacchetto-main{
+    padding: 30px 30px;
+}
+.pacchetto .pacchetto-main .pacchetto-nome{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* pacchetto main */
+.pacchetto .pacchetto-main .pacchetto-prezzo{
+    margin-bottom: 70px;
+}
+.pacchetto .pacchetto-main .pacchetto-prezzo section{
+    margin-top: 10px;
+    color: grey;
+    font-weight: 600;
+}
+/* pacchetto contenuto */
+.pacchetto .pacchetto-main .pacchetto-contenuto .cnt{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+/* pacchetto btn e acquista ora */
+.pacchetto .pacchetto-main .container-btn{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.pacchetto .pacchetto-main .container-btn .btn{
+    width: 100%;
+    display: inline-block;
+}
+.pacchetto .pacchetto-main .acq-ora{
+    padding-bottom: 30px;
+}
+.pacchetto .pacchetto-main .acq-ora a{
+    text-decoration: underline;
+    color: rgb(0,97,255);
+}
+.pacchetto .pacchetto-main .acq-ora span{
+    padding-bottom: 30px;
+    border-bottom: solid 1px grey;
+}
+/* pacchetto punti salienti */
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti{
+    margin: 40px 0;
+}
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti ul{
+    margin-top: 20px;
+}
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti ul li i{
+    padding-right: 5px;
+    color:rgb(0,97,255) ;
 }
