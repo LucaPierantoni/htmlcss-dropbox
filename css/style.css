@@ -7,3 +7,78 @@
 body {
     font-family: sans-serif;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;  
+}
+.btn{
+    padding: 5px 20px;
+}
+
+/* header */
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+/* header SX */
+header .header-sx{
+    float: left;
+    width: 50%;
+}
+header .header-sx img{
+    padding-left: 40px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+header .header-sx ul{
+    display: inline-block;
+    margin: 0 50px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+header .header-sx li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+/* header DX */
+header .header-dx{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+header .header-dx ul{
+    line-height: 80px;
+    display: inline-block;
+}
+header .header-dx li{
+    display: inline-block;
+    padding-right: 30px;
+}
+header .header-dx .conatiner-btn{
+    display: inline-block;
+    margin-right: 30px;
+}
+.none{
+    background-color: none;
+    color: black;
+}
+.none:hover{
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.blue{
+    background-color: rgb(0,97,255);
+    color: white;
+}
+.blue:hover{
+    background-color: rgb(0, 76, 197);
+    color: white;
+}
