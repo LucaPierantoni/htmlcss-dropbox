@@ -161,6 +161,9 @@ header .header-dx .conatiner-btn{
     text-align: center;
     padding: 10px 0;
 }
+.pacchetto .pacchetto-header span{
+    margin-left: 5px;
+}
 .pacchetto .pacchetto-main{
     padding: 30px 30px;
 }
@@ -218,4 +221,7 @@ header .header-dx .conatiner-btn{
 .pacchetto .pacchetto-main .pacchetto-puntiSalienti ul li i{
     padding-right: 5px;
     color:rgb(0,97,255) ;
+}
+.pacchetto .pacchetto-main .corto ul{
+    padding-bottom: 50px;
 }
