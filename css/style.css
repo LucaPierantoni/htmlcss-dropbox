@@ -29,6 +29,7 @@ header{
     left: 0;
     right: 0;
     background-color: white;
+    z-index: 100;
 }
 /* header SX */
 header .header-sx{
@@ -282,7 +283,7 @@ header .header-dx .container-btn{
 }
 .titolo-schede{
     font-size: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .scheda{
     width: calc(100% / 3 - 50px);
@@ -300,4 +301,98 @@ header .header-dx .container-btn{
 }
 .row-up{
     margin-bottom: 100px;
+}
+/* fine sezione schede 3x2 */
+
+/* sezione team affiliati */
+.section-affiliates-title h2{
+    font-size: 40px;
+}
+.section-affiliates-title div{
+    margin: 3.5% 0;
+}
+.section-affiliates-title a{
+    color: rgb(0,97,255);
+    text-decoration: underline;
+}
+
+.container-affiliati{
+    height: 600px;
+}
+.affiliato{
+    position: relative;
+    width:50%;
+    height: 300px;
+    float: left;
+}
+.affiliato img{
+    max-width: 50%;
+    max-height: 50%;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+.affiliato-sx{
+    width: 30%;
+    float: left;
+}
+.affiliato-dx{
+    width: 30%;
+    float: right;
+}
+
+.affiliato-note{
+    padding: 3%;
+    width: 40%;
+    height: 600px;
+    float: left;
+}
+.affiliato-note-img {
+    width: 30%;
+    height: auto;
+}
+.affiliato-note-img img{
+    max-width: 80%;
+}
+.affiliato-note p {
+    margin-top: 20%;
+    font-size: 20px;
+}
+.affiliato-note p span{
+    border-top: solid 1px grey;
+    padding-top: 10%;
+}
+.cit{
+    margin-top: 5%;
+}
+.desi{
+    background-color: rgb(162,211,155);
+}
+.asu{
+    background-color: rgb(97,8,43);
+}
+.uf{
+    background-color:rgb(0,147,206)    ;
+}
+.topps{
+    background-color:rgb(255,28,28)
+    ;
+}
+.wbr{
+    background-color: rgb(213,0,31)
+    ;
+}
+.hearst{
+    background-color: rgb(180,208,231)
+    ;
+}
+.lonley{
+    background-color:rgb(13,36,129)
+    ;
+}
+.clear{
+    background-color: rgb(255,216,48)
+    ;
 }
