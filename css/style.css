@@ -1,14 +1,13 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family:'Open Sans';
+body{
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    color: black;
 }
-
 .clearfix::after{
     content: "";
     display: table;
@@ -21,7 +20,6 @@ a{
 .btn{
     padding: 5px 20px;
 }
-
 /* header */
 header{
     height: 80px;
@@ -32,7 +30,6 @@ header{
     right: 0;
     background-color: white;
 }
-
 /* header SX */
 header .header-sx{
     float: left;
@@ -53,7 +50,6 @@ header .header-sx li{
     display: inline-block;
     padding-right: 30px;
 }
-
 /* header DX */
 header .header-dx{
     float: left;
@@ -68,7 +64,7 @@ header .header-dx li{
     display: inline-block;
     padding-right: 30px;
 }
-header .header-dx .conatiner-btn{
+header .header-dx .container-btn{
     display: inline-block;
     margin-right: 30px;
 }
@@ -87,9 +83,7 @@ header .header-dx .conatiner-btn{
     background-color: rgb(0, 76, 197);
     color: white;
 }
-
 /* fine header */
-
 /* jumbotron */
 #jumbo{
     background-color: rgb(180,208,231);
@@ -107,7 +101,6 @@ header .header-dx .conatiner-btn{
     padding: 50px 0;
 }
 #jumbo .horizontal-center p{
-    font-weight: 600;
     width: 30%;
     padding-bottom: 50px;
 }
@@ -121,13 +114,11 @@ header .header-dx .conatiner-btn{
 #jumbo .horizontal-center .container-btn div{
     margin: 30px 0;
 }
-#jumbo .horizontal-center .container-btn .btn{
-    margin-bottom: 100px ;
-}
 #jumbo .horizontal-center .frecciaGiu{
     font-size: 50px;
     margin-top: 50px;
 }
+/* fine jumbotron */
 /* sezione pacchetti acquistabili */
 .horizontal-center-2{
     width: 65%;
@@ -148,9 +139,18 @@ header .header-dx .conatiner-btn{
     padding-right: 20px;
 }
 /* pacchetti acquistabili */
-.pacchetto{
+.aside, .centrale{
     float: left;
     width: calc(100% / 3 - 34px);
+/*     height: 1270px; */
+}
+.containerPacchetti{
+}
+.asidesx{
+
+}
+
+.pacchetto{
     border: solid 1px grey;
 }
 .centrale{
@@ -223,5 +223,56 @@ header .header-dx .conatiner-btn{
     color:rgb(0,97,255) ;
 }
 .pacchetto .pacchetto-main .corto ul{
-    padding-bottom: 50px;
+     padding-bottom: 50px; 
+}
+/* pacchetto finale */
+.pacchetto-finale{
+    margin-top: 50px;
+}
+.pacchetto-finale p{
+    margin-top: 40px;
+    font-size: 15px;
+}
+.pacchetto-finale .pacchetto-nome{
+    float: left;
+    width: 75%;
+}
+.pacchetto-finale #container-btn-finale{
+    width: 25%;
+    margin-top: 0px;
+    float: right;
+}
+.pacchetti{
+    margin-bottom: 10%;
+}
+/* fine sezione pacchetti acquistabili */
+
+/* sezione partner */
+.containerImg-partner{
+    width: 48%;
+    float: left;
+}
+.containerImg-partner img{
+    max-width: 100%;
+}
+.containerText{
+    padding-top: 40px;
+    width: 48%;
+    float: right;
+}
+.containerText h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.containerText p{
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+.white{
+    border: solid 1px black;
+    padding: 9px 20px;
+    background-color: white;
+}
+.white:hover{
+    background-color: rgb(219, 219, 219);
 }

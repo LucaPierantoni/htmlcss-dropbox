@@ -2,45 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
 <body>
-
     <!-- header con position fixed -->
     <header class="clearfix">
-
         <div class="header-sx">
-            <img src="./img/logo-small.png" alt="logo">
+            <img src="img/logo-small.png" alt="logo">
             <ul>
                 <li><a href="#">Perche Dropbox?</a></li>
                 <li><a href="#">Funzioni</a></li>
                 <li><a href="#">Piani e prezzi</a></li>
             </ul>  
         </div>
-
         <div class="header-dx">
             <ul>
                 <li><a href="#">Supporto</a></li>
                 <li><a href="#">Contatta l'ufficio vendite</a></li>
             </ul>
-
-            <div class="conatiner-btn">
+            <div class="container-btn">
                 <a href="#" class="btn none">Accedi</a>
             </div>
-            <div class="conatiner-btn">
+            <div class="container-btn">
                 <a href="#" class="btn blue">Inizia</a>
             </div>
         </div>
-
+      
     </header>
-
-    <!-- sezione jumbotron -->
+    <!-- jumbotron -->
     <section id="jumbo">
         <div class="horizontal-center clearfix">
             <h1>
@@ -52,9 +48,6 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laboriosam dolores fuga magnam beatae odio quisquam, suscipit cumque vel voluptatem tenetur optio debitis saepe aliquid amet reiciendis voluptatum blanditiis recusandae.
             </p>
-
-
-
             <div class="container-btn">
                 <a href="#" class="btn blue">
                     Inizia la tua prova gratuita*
@@ -63,17 +56,14 @@
                     *Annulla in qualsiasi momento
                 </div>
             </div>
-
             <div class="frecciaGiu">
                 <i class="fas fa-arrow-down"></i>
             </div>
         </div>
     </section>
-
-    <!-- main  -->
+    <!-- corpo della pagina -->
     <main>
-
-        <!-- sezione pacchetti in vendita -->
+        <!-- section pacchetti in vendita -->
         <section class="pacchetti">
             <!-- centratura al 65% -->
             <div class="horizontal-center-2">
@@ -83,21 +73,23 @@
                 </h2>
                 <!-- input radio -->
                 <div class="fatturazioni">
-                    <input type="radio"><span>Fatturazione mensile</span>
-                    <input type="radio"><span>Fatturazione mensile</span>
+                    <form action="">
+                        <input type="radio"><span>Fatturazione mensile</span>
+                        <input type="radio"><span>Fatturazione mensile</span>
+                    </form>
                 </div>
                 <!-- contenitore dei pacchetti -->
                 <div class="containerPacchetti clearfix">
 
-                    <!-- pacchetto numero 1 -->
-                    <div class="pacchetto">
+                    <!-- pacchetto numero 1 LATERALE SINISTRO-->
+                    <div class="pacchetto aside asidesx">
                         <!-- titolo del pacchetto -->
                         <h4 class="pacchetto-header">
                             <i class="far fa-user"></i><span>Singolo</span> 
                         </h4>
+                        <!-- corpo centrale del pacchetto -->
                         <div class="pacchetto-main">
                             <!-- nome del pacchetto -->
-
                             <h3 class="pacchetto-nome">
                                 Professional
                             </h3>
@@ -108,7 +100,7 @@
                                     /mese
                                 </section>
                             </h4>
-
+                            <!-- contenuto del pacchetto -->
                             <div class="pacchetto-contenuto">
                                 <div class="cnt utente">
                                     <i class="far fa-user"></i>
@@ -116,7 +108,7 @@
                                 </div>
                                 <div class="cnt spazio">
                                     <i class="far fa-folder"></i>
-                                    3 TB di psazio di archiviazione sicuro
+                                    3 TB di spazio di archiviazione sicuro
                                 </div>
                                 <div class="cnt funzioni">
                                     <i class="fas fa-pencil-alt"></i>
@@ -127,11 +119,11 @@
                             <div class="container-btn">
                                 <a href="#" class="btn blue">Prova gratis per 30 giorni</a>
                             </div>
-
-                            <div>
-                                oppure <a href="#">acquista ora</a>
+                            <!-- link acquista ora del pacchetto -->
+                            <div class="acq-ora">
+                                <span>oppure </span><a href="#">acquista ora</a>
                             </div>
-
+                            <!-- punti salienti del pacchetto -->
                             <div class="pacchetto-puntiSalienti corto">
                                 <h4>
                                     Punti salienti del piano
@@ -140,35 +132,34 @@
                                     <li><i class="fas fa-check"></i>Inviare file fino a 100 GB con Dropbox Transfert</li>
                                     <li><i class="fas fa-check"></i>Cartelle offline su dispositivi mobili</li>
                                     <li><i class="fas fa-check"></i>Pulizia remota dell'account</li>
-                                    <li><i class="fas fa-check"></i>Filgrana documento</li>
-                                    <li><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</li>
+                                    <li><i class="fas fa-check"></i>Filgrana documento</li>                                   
+                                    <li><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</li>                             
                                 </ul>
                             </div>
 
                         </div>
                     </div>
-
+                    <!-- pacchetto numero 2 CENTRALE -->
                     <div class="pacchetto centrale">
+                        <!-- titolo del pacchetto -->
                         <h4 class="pacchetto-header">
-                            <i class="far fa-building"></i><span>Team</span>  
+                            <i class="far fa-building"></i><span>Team</span> 
                         </h4>
+                        <!-- corpo centrale del pacchetto -->
                         <div class="pacchetto-main">
-
                             <!-- nome del pacchetto -->
                             <h3 class="pacchetto-nome">
                                 Standard
                             </h3>
                             <!-- prezzo del pacchetto -->
-
                             <h4 class="pacchetto-prezzo">
                                 19,99 &euro;
                                 <section>
                                     / utente/ mese, a partire da 3 utenti
                                 </section>
                             </h4>
-
+                            <!-- contenuto del pacchetto -->
                             <div class="pacchetto-contenuto">
-
                                 <div class="cnt utente">
                                     <i class="fas fa-user-plus"></i>
                                     1 utente
@@ -203,24 +194,22 @@
                                     <li><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</li>
                                     <li><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</li>
                                 </ul>
-
                             </div>
-
                         </div>
                     </div>
-
-                    <div class="pacchetto">
+                    <!-- pacchetto numero 3 LATERALE DESTRO-->
+                    <div class="pacchetto aside">
+                        <!-- titolo del pacchetto -->
                         <h4 class="pacchetto-header">
                             <i class="far fa-building"></i><span>Team</span> 
                         </h4>
+                        <!-- corpo centrale del pacchetto -->
                         <div class="pacchetto-main">
-
                             <!-- nome del pacchetto -->
                             <h3 class="pacchetto-nome">
                                 Advanced
                             </h3>
                             <!-- prezzo del pacchetto -->
-
                             <h4 class="pacchetto-prezzo">
                                 19,99 &euro;
                                 <section>
@@ -228,9 +217,7 @@
                                 </section>
                             </h4>
                             <!-- contenuto del pacchetto -->
-
                             <div class="pacchetto-contenuto">
-
                                 <div class="cnt utente">
                                     <i class="fas fa-user-plus"></i>
                                     1 utente
@@ -265,58 +252,87 @@
                                     <li><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</li>
                                     <li><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</li>
                                 </ul>
-
                             </div>
-
                         </div>
+                    </div>
+                </div>
+                <!-- contenitore ultimo pacchetto -->
+                <div class="containerPacchetti clearfix">
+                    <!-- pacchetto numero 4 FINALE -->
+                    <div class="pacchetto pacchetto-finale">
+                        <!-- titolo del pacchetto -->
+                        <h4 class="pacchetto-header">
+                            <i class="far fa-building"></i><span>Team</span> 
+                        </h4>
+                        <!-- corpo centrale del pacchetto -->
+                        <div class="pacchetto-main clearfix">
+                            
+                            <!-- nome del pacchetto -->
+                            <h3 class="pacchetto-nome">
+                                Enterprise
+                            </h3>
+                            <!-- bottone del pacchetto -->
+                            <div class="container-btn" id="container-btn-finale">
+                                <a href="#" class="btn blue">Contatta l'ufficio vendite</a>
+                            </div>
+                            <!-- sottotitolo del pacchetto -->
+                            <h4 class="pacchetto-subtitle">
+                                Contatta l'ufficio vendite per i prezzi
+                            </h4>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>    
+                        </div>
+                    
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- section contatta un partner -->
+        <section>
+            <div class="horizontal-center-2 clearfix">
+
+                <div class="containerImg-partner">
+                    <img src="img/partner.png" alt="partner foto">
+                </div>
+
+                <div class="containerText">
+                    <h3>
+                        Entra in contatto con un partner Dropbox
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit inventore excepturi corrupti aliquid! Amet velit rerum voluptates impedit cumque pariatur praesentium, voluptate assumenda quod debitis.
+                    </p>
+                    <div class="container-btn">
+                        <a href="" class="btn white">
+                            Trova un partner
+                        </a>
                     </div>
                 </div>
             </div>
 
-
         </section>
 
-        <!-- sezione contatto partner -->
+        <!-- section schede 3x2 -->
         <section>
-
         </section>
-
-        <!-- sezione schede in colonna 3x2 -->
+        <!-- section team affiliati -->
         <section>
-
         </section>
-
-        <!-- sezione team affiliati -->
+        <!-- banner prova gratuita -->
         <section>
-
         </section>
-
-        <!-- sezione prova gratuita -->
+        <!-- section FAQ -->
         <section>
-
         </section>
-        
-        <!-- sezione FAQ -->
-        <section>
-
-        </section>
-
     </main>
-
-    <!-- footer -->
     <footer>
-
-        <!-- footer classic -->
+        <!-- footer main -->
         <section>
-
         </section>
-
         <!-- footer lingua -->
         <section>
-
         </section>
-
     </footer>
-
 </body>
 </html>
