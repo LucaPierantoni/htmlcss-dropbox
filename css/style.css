@@ -276,3 +276,28 @@ header .header-dx .container-btn{
 .white:hover{
     background-color: rgb(219, 219, 219);
 }
+/* sezione schede 3x2 */
+.schede{
+    margin: 10% 0;
+}
+.titolo-schede{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.scheda{
+    width: calc(100% / 3 - 50px);
+    float: left;
+}
+.mid{
+    margin: 0 75px;
+}
+.scheda .containerImg-scheda img{
+    max-width: 100%;
+}
+.scheda .containerTxt-scheda h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.row-up{
+    margin-bottom: 100px;
+}
