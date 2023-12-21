@@ -36,6 +36,9 @@ header .header-sx{
     float: left;
     width: 50%;
 }
+.container-logo{
+    display: inline-block;
+}
 header .header-sx img{
     padding-left: 40px;
     line-height: 80px;
@@ -44,12 +47,16 @@ header .header-sx img{
 header .header-sx ul{
     display: inline-block;
     margin: 0 50px;
-    line-height: 80px;
+    line-height: 77px;
     vertical-align: middle;
+    height: 77px;
 }
 header .header-sx li{
     display: inline-block;
-    padding-right: 30px;
+    padding: 0 15px;
+}
+header .header-sx li:hover{
+    border-bottom: solid 3px black;
 }
 /* header DX */
 header .header-dx{
@@ -58,12 +65,15 @@ header .header-dx{
     text-align: right;
 }
 header .header-dx ul{
-    line-height: 80px;
+    line-height: 77px;
     display: inline-block;
 }
 header .header-dx li{
     display: inline-block;
-    padding-right: 30px;
+    padding: 0 15px;
+}
+header .header-sx li:hover{
+    border-bottom: solid 3px black;
 }
 header .header-dx .container-btn{
     display: inline-block;
@@ -470,4 +480,18 @@ header .header-dx .container-btn{
 }
 .col-footer a{
     color: white;
+}
+/* footer lingua */
+.lingua{
+    color: grey;
+    margin-top: 8%;
+    padding-top: 3%;
+    border-top: solid white 1px;
+    width: 10%;
+}
+.lingua i {
+    font-size: 15px;
+}
+.lingua a{
+    color: grey;
 }
