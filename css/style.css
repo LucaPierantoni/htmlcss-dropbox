@@ -447,3 +447,27 @@ header .header-dx .container-btn{
 .container-domande-faq{
     border-bottom: 1px grey solid;
 }
+/* fine sezione FAQ */
+
+/* sezione footer */
+.footer-main{
+    background-color: black;
+    color: white;
+    padding: 5% 0;
+}
+.col-footer{
+    margin-right: 50px;
+    width: calc(100% / 5 - 50px);
+    float: left;
+}
+.col-footer h3{
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+.col-footer li{
+    list-style: none;
+    margin: 3% 0;
+}
+.col-footer a{
+    color: white;
+}
