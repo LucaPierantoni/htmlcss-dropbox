@@ -201,7 +201,8 @@ header .header-dx .container-btn{
 }
 .pacchetto .pacchetto-main .pacchetto-contenuto .cnt i{
     float: left;
-    padding: 5px 5px ;
+    padding-right: 5px;
+    padding-top: 3px;
 }
 /* pacchetto btn e acquista ora */
 .pacchetto .pacchetto-main .container-btn{
@@ -415,6 +416,7 @@ header .header-dx .container-btn{
 }
 .affiliato:hover{
     border: solid 10px rgba(255, 255, 255, 0.438);
+    cursor: pointer;
 }
 /* sezione banner prova gratuita */
 .prova-free-banner{
@@ -448,15 +450,28 @@ header .header-dx .container-btn{
 .container-faq .domanda{
     font-size: 20px;
     float: left;
-    padding: 3% 0;
+    padding: 4% 0;
+    width: 98%;
 }
 .container-faq i{
     float: right;
     padding: 3% 0;
+    width: 2%;
 }
 .container-domande-faq{
-    border-bottom: 1px grey solid;
+    border-bottom: 1px grey solid;height:100px;
+    overflow: hidden;
 }
+
+/* hover FAQ */
+.container-domande-faq:hover{
+    height: 300px;
+    cursor:pointer;
+}
+.container-domande-faq:hover .frecciaGiuFaq{
+    display: none;
+}
+
 /* fine sezione FAQ */
 
 /* sezione footer */
@@ -495,3 +510,4 @@ header .header-dx .container-btn{
 .lingua a{
     color: grey;
 }
+/* fine sezione footer */
