@@ -427,3 +427,23 @@ header .header-dx .container-btn{
 /* fine sezione banner prova gratuita */
 
 /* sezione FAQ */
+.container-faq{
+    padding: 8% 0;
+}
+.container-faq h3{
+    font-size: 35px;
+    border-bottom: 1px grey solid;
+    padding-bottom: 5%;
+}
+.container-faq .domanda{
+    font-size: 20px;
+    float: left;
+    padding: 3% 0;
+}
+.container-faq i{
+    float: right;
+    padding: 3% 0;
+}
+.container-domande-faq{
+    border-bottom: 1px grey solid;
+}
